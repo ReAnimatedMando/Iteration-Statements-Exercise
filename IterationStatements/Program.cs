@@ -5,6 +5,15 @@
         // LukeWarm Section: Implement the following methods        
         // 1. Write a method that prints all numbers from 1000 down to -1000 to the console.
         //    - Method Signature: void PrintNumbers()
+        public static void PrintNumbers()
+        {
+            for (int i = 1000; i <= 1000 && i >= -1000; i--)
+            {
+                Console.WriteLine($"{i}");
+            }
+        }
+
+        
         
         // 2. Write a method that prints every third number from 3 to 999 to the console.
         //    - Method Signature: void PrintEveryThirdNumber()
@@ -39,7 +48,7 @@
         // Use various test cases to ensure they work as expected.        
         static void Main(string[] args)
         {
-            
+            PrintNumbers();
         }
     }
 }
