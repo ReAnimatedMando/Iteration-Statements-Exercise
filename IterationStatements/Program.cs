@@ -70,6 +70,23 @@
         //    - Returns true if the candidate can vote, false otherwise.
         //    - Hint: Use `int.Parse()` or the safer `int.TryParse()` for extra practice in handling user input.
         
+        
+        public static bool CanVote()
+        {
+            Console.WriteLine("What is your age?");
+            string userInput = Console.ReadLine();
+            int userAge = int.Parse(userInput);
+
+            if (userAge >= 18)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
         // Heatin' Up Section:
         // 1. Write a method that checks if an integer (provided by the user) is within the range of -10 to 10.
         //    - Method Signature: bool IsInRange(int number)
@@ -87,7 +104,9 @@
             //PrintEveryThirdNumber();
             //Console.WriteLine(AreNumbersEqual(13, 13));
             //Console.WriteLine(IsEven(88));
-            Console.WriteLine(IsPositive(4));
+            //Console.WriteLine(IsPositive(4));
+            //Console.WriteLine(CanVote());
+            
 
         }
     }
