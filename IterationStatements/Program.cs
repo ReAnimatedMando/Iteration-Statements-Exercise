@@ -45,6 +45,10 @@
         // 4. Write a method that checks if a given number is even or odd.
         //    - Method Signature: bool IsEven(int number)
         //    - Returns true if the number is even, false if odd.
+        public static bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
         
         // 5. Write a method that checks if a given number is positive or negative.
         //    - Method Signature: bool IsPositive(int number)
@@ -71,7 +75,8 @@
             //PrintNumbers();
             //PrintEveryThirdNumber();
             //Console.WriteLine(AreNumbersEqual(13, 13));
-            
+            //Console.WriteLine(IsEven(88));
+
         }
     }
 }
