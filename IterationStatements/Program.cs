@@ -30,6 +30,17 @@
         // 3. Write a method that accepts two integers as parameters and checks whether they are equal.
         //    - Method Signature: bool AreNumbersEqual(int num1, int num2)
         //    - Returns true if the numbers are equal, false otherwise.
+        public static bool AreNumbersEqual(int num1, int num2)
+        {
+            if (num1 == num2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         
         // 4. Write a method that checks if a given number is even or odd.
         //    - Method Signature: bool IsEven(int number)
@@ -59,6 +70,7 @@
         {
             //PrintNumbers();
             //PrintEveryThirdNumber();
+            //Console.WriteLine(AreNumbersEqual(13, 13));
             
         }
     }
