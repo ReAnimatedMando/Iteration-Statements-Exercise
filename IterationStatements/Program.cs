@@ -122,13 +122,13 @@
         // Use various test cases to ensure they work as expected.        
         static void Main(string[] args)
         {
-            //PrintNumbers();
-            //PrintEveryThirdNumber();
-            //Console.WriteLine(AreNumbersEqual(13, 13));
-            //Console.WriteLine(IsEven(88));
-            //Console.WriteLine(IsPositive(4));
-            //Console.WriteLine(CanVote());
-            //Console.WriteLine(IsInRange());
+            PrintNumbers();
+            PrintEveryThirdNumber();
+            Console.WriteLine(AreNumbersEqual(13, 13));
+            Console.WriteLine(IsEven(88));
+            Console.WriteLine(IsPositive(4));
+            Console.WriteLine(CanVote());
+            Console.WriteLine(IsInRange());
             DisplayMultiplicationTable(1);
 
 
