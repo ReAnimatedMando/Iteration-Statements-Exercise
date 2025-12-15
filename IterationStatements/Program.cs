@@ -53,6 +53,17 @@
         // 5. Write a method that checks if a given number is positive or negative.
         //    - Method Signature: bool IsPositive(int number)
         //    - Returns true if the number is positive, false if negative.
+        public static bool IsPositive(int number)
+        {
+            if (number > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         
         // 6. Write a method that reads the age of a candidate and determines if they are eligible to vote.
         //    - Method Signature: bool CanVote(int age)
@@ -76,6 +87,7 @@
             //PrintEveryThirdNumber();
             //Console.WriteLine(AreNumbersEqual(13, 13));
             //Console.WriteLine(IsEven(88));
+            Console.WriteLine(IsPositive(4));
 
         }
     }
