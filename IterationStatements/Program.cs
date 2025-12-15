@@ -17,6 +17,15 @@
         
         // 2. Write a method that prints every third number from 3 to 999 to the console.
         //    - Method Signature: void PrintEveryThirdNumber()
+        public static void PrintEveryThirdNumber()
+        {
+            var i = 0;
+            while (i >= 0 && i < 999)
+            {
+                i += 3;
+                Console.WriteLine($"{i}");
+            }
+        }
         
         // 3. Write a method that accepts two integers as parameters and checks whether they are equal.
         //    - Method Signature: bool AreNumbersEqual(int num1, int num2)
@@ -48,7 +57,9 @@
         // Use various test cases to ensure they work as expected.        
         static void Main(string[] args)
         {
-            PrintNumbers();
+            //PrintNumbers();
+            //PrintEveryThirdNumber();
+            
         }
     }
 }
