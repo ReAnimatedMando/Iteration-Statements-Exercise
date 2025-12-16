@@ -71,7 +71,7 @@
         //    - Hint: Use `int.Parse()` or the safer `int.TryParse()` for extra practice in handling user input.
         
         
-        public static bool CanVote()
+        public static bool CanVote(int age)
         {
             Console.WriteLine("What is your age?");
             string userInput = Console.ReadLine();
@@ -127,7 +127,7 @@
             Console.WriteLine(AreNumbersEqual(13, 13));
             Console.WriteLine(IsEven(88));
             Console.WriteLine(IsPositive(4));
-            Console.WriteLine(CanVote());
+            Console.WriteLine(CanVote(21));
             Console.WriteLine(IsInRange());
             DisplayMultiplicationTable(1);
 
