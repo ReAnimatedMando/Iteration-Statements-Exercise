@@ -91,7 +91,7 @@
         // 1. Write a method that checks if an integer (provided by the user) is within the range of -10 to 10.
         //    - Method Signature: bool IsInRange(int number)
         //    - Returns true if the number is within the range, false otherwise.
-        public static bool IsInRange()
+        public static bool IsInRange(int number)
         {
             Console.WriteLine("Enter any whole number:");
             string numberEntered = Console.ReadLine();
@@ -128,7 +128,7 @@
             Console.WriteLine(IsEven(88));
             Console.WriteLine(IsPositive(4));
             Console.WriteLine(CanVote(21));
-            Console.WriteLine(IsInRange());
+            Console.WriteLine(IsInRange(54));
             DisplayMultiplicationTable(1);
 
 
